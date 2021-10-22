@@ -1,5 +1,51 @@
-.container{
+.container {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
+}
+
+.container2 {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.para-body {
+    text-align: justify;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.d-flex img {
+    width: 100px;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 30%;
+}
+
+.card > img {
+    width: 100%;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container3 {
+    padding: 2px 16px;
+}
+.d-flex2{
+    display: flex;
+    justify-content: space-between;
 }
